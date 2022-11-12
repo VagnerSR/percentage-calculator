@@ -1,0 +1,23 @@
+.lineWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.lineOne{
+    display: flex;
+    flex-direction: row;
+}
+
+.secOne {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .lineOne{
+        flex-direction: column;
+        align-items: center;
+    }
+}
