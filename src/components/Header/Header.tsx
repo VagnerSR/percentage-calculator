@@ -5,9 +5,9 @@ function Header() {
         <header>
             <AppBar position="static">
                 <Typography variant="h1"
-                    sx={{ fontSize: 30, fontWeight: 400, textAlign: 'center', marginTop: 3, marginBottom: 3 }}>
+                    sx={{ fontSize: 25, fontWeight: 400, textAlign: 'center', marginTop: 3, marginBottom: 3 }}>
 
-                    Calculadora de porcentagem
+                    CALCULADORA DE PORCENTAGEM
                 </Typography>
             </AppBar>
         </header>

@@ -9,7 +9,7 @@ function OtherPercentageCalculations() {
     const [resultHowMuch, setResultHowMuch] = useState<string>('')
 
     function showResultHowMuch() {
-        return setResultHowMuch(`${percentegeValue}% de ${numberValue} é ${howMuchIsIt(percentegeValue, numberValue)}.`)
+        return setResultHowMuch(`${percentegeValue}% de ${numberValue} é ${howMuchIsIt(percentegeValue, numberValue, setPercentegeValue, setNumberValue)}.`)
     }
 
     const [isWhatValueOne, setIsWhatValueOne] = useState<string>('')
@@ -17,7 +17,7 @@ function OtherPercentageCalculations() {
     const [resultIsWhat, setResultIsWhat] = useState<string>('')
 
     function showResultIsWhat() {
-        return setResultIsWhat(`${isWhatValueOne} é igual a ${isWhatPercentOf(isWhatValueOne, isWhatValueTwo)}% de ${isWhatValueTwo}.`)
+        return setResultIsWhat(`${isWhatValueOne} é igual a ${isWhatPercentOf(isWhatValueOne, isWhatValueTwo, setIsWhatValueOne, setIsWhatValueTwo)}% de ${isWhatValueTwo}.`)
     }   
 
     return (

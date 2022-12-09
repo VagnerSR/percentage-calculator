@@ -5,7 +5,7 @@ import "./LineLayout.css";
 interface LayoutProps {
     textOne?: string
     valueOne: string
-    onChageOne: any
+    onChageOne: Function
     labelOne: string
     palceHolderOne: string
 
@@ -13,7 +13,7 @@ interface LayoutProps {
     textTwo: string
     textBreak?: string
     valueTwo: string
-    onChangeTwo: any
+    onChangeTwo: Function
     labelTwo: string
     palceHolderTwo: string
 

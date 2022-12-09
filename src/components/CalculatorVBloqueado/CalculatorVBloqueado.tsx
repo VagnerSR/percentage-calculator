@@ -10,7 +10,7 @@ function CalculatorVBloqueado() {
     const [result, setResult] = useState<string>('')
 
     function showResult() {
-        return setResult(`R$ ${lockedValue} é igual a ${percentage(lockedValue, debtValue)}% de R$ ${debtValue}.`)
+        return setResult(`${lockedValue} é igual a ${percentage(lockedValue, debtValue, setLockedValue, setDebtValue)}% de ${debtValue}.`)
     }
 
     return (
@@ -18,17 +18,15 @@ function CalculatorVBloqueado() {
             <Layout title='Calcule a porcentagem do valor bloqueado'>
 
                 <TextField
+                    autoFocus 
                     InputProps={{
                         value: lockedValue,
                         onKeyDown: currency,
                     }}
-                    id="outlined-number"
+                    id="outlined-basic"
                     label="Digite o valor bloqueado"
                     placeholder="0,00"
-
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
+                    variant="outlined"
                     onChange={(event) => {
                         setLockedValue(event.target.value)
                     }}
@@ -54,9 +52,6 @@ function CalculatorVBloqueado() {
                     id="outlined-number"
                     label="Digite o valor da dívida"
                     placeholder="0,00"
-                    InputLabelProps={{
-                        shrink: true,
-                    }}
                     onChange={(event) => {
                         setDebtValue(event.target.value)
                     }}
