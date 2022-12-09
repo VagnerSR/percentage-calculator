@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/percentage-calculator/static/css/main.10ac2696.css",
-    "main.js": "/percentage-calculator/static/js/main.2d681eb0.js",
+    "main.js": "/percentage-calculator/static/js/main.c461c029.js",
     "index.html": "/percentage-calculator/index.html",
     "main.10ac2696.css.map": "/percentage-calculator/static/css/main.10ac2696.css.map",
-    "main.2d681eb0.js.map": "/percentage-calculator/static/js/main.2d681eb0.js.map"
+    "main.c461c029.js.map": "/percentage-calculator/static/js/main.c461c029.js.map"
   },
   "entrypoints": [
     "static/css/main.10ac2696.css",
-    "static/js/main.2d681eb0.js"
+    "static/js/main.c461c029.js"
   ]
 }
