@@ -8,11 +8,12 @@ import { useEffect } from 'react';
 const TRACKIND_ID = "UA-251655585-1"
 ReacGA.initialize(TRACKIND_ID);
 
-useEffect (() => {
-  ReacGA.pageview(window.location.pathname)
-}, [])
-
 function App() {
+
+  useEffect (() => {
+    ReacGA.pageview(window.location.pathname)
+  }, [])
+
   return (
     <div className="App">
       <Header />
