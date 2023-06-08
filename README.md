@@ -17,6 +17,7 @@ Material UI <br />
 I used React.JS to develop this app because it’s what I’m currently learning and wanted to practice using `props` and making dynamic templates. I also used a mask on the input value, something that I had never done it before, so it show the number on the Brazilian format, instead of 1’000.32 it’s 1.000,32.
 
 
+
 ## More information
 
 You can check out the project [here](https://vagnersr.github.io/percentage-calculator/) <br />
